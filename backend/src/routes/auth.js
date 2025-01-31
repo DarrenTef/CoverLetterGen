@@ -1,6 +1,6 @@
 import express from 'express';
-import { signUp, login } from '../controllers/authController.js';  // Add .js extension
-import checkAuth from '../middlewares/authMiddleware.js';  // Add .js extension
+import { signUp, login } from '../controllers/authController.js'; // Add .js extension
+import checkAuth from '../middlewares/authMiddleware.js'; // Add .js extension
 
 const router = express.Router();
 

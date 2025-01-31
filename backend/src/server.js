@@ -3,7 +3,7 @@ dotenv.config();
 
 import express from 'express';
 import bodyParser from 'body-parser';
-import auth from './routes/auth.js';  // Use relative path with .js
+import auth from './routes/auth.js'; // Use relative path with .js
 import cors from 'cors';
 
 const app = express();

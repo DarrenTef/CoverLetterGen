@@ -1,7 +1,7 @@
 // authController.js
 // Contains the logic for signing up and logging in users
 
-import supabase from '../services/supabaseClient.js';  // Add .js extension
+import supabase from '../services/supabaseClient.js'; // Add .js extension
 
 // Signup a new user
 export async function signUp(req, res) {

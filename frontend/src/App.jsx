@@ -5,7 +5,7 @@ const App = () => {
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
 
-  const apiUrl = 'http://localhost:3000/auth';  // Your backend URL for auth routes
+  const apiUrl = 'http://localhost:3000/auth'; // Your backend URL for auth routes
   console.log('Frontend is running...');
   // Handle signup
   const signup = async () => {
@@ -21,7 +21,7 @@ const App = () => {
     if (data.success) {
       setMessage('Yay! You signed up successfully!');
     } else {
-      setMessage('Signup failed: ' + data.message);  // Show the error message if signup fails
+      setMessage('Signup failed: ' + data.message); // Show the error message if signup fails
     }
   };
 
