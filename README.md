@@ -1,8 +1,10 @@
-# React + Vite
+# CoverLetterGen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backend
+controllers
+    - Used to execute the buisness logic of things
+routes
+    - Used as entry points into the backend namely the controllers
+middlewares
+    - Functions that are executed during req-res cycle.
+    - Acts as a bridge to process requests before reaching the controller
