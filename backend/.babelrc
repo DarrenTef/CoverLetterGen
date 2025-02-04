@@ -1,0 +1,8 @@
+// .babelrc
+// Babel is a javascript compiler enabling devs to use modern JS features. Main feature is to transpile/transform JS into older more widely supported syntax
+{
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
