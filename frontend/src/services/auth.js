@@ -19,3 +19,7 @@ export const login = async (email, password) => {
         throw error.response.data || error.message;
     }
 };
+
+
+
+window.login = login;

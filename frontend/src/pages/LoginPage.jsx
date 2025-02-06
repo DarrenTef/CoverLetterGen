@@ -1,8 +1,11 @@
+import AuthLayout from '../components/AuthLayout';
+import AuthForm from '../sections/auth/AuthForm';
 import React from 'react';
-import SignInView from '../sections/auth/SignInView';
 
-function LoginPage() {
-  return <SignInView />;
-}
+const LoginPage = () => (
+  <AuthLayout>
+    <AuthForm mode="login" />
+  </AuthLayout>
+);
 
 export default LoginPage;
